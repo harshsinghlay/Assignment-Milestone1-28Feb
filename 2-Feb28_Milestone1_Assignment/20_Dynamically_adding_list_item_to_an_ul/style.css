@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    gap: 1rem;
+}
+#list{
+    border: 5px solid #ff0000;
+    min-width: 500px;
+    min-height: 500px;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    overflow: hidden;
+}
+#btn{
+    background-color: rgb(220, 24, 24);
+    color: #fff;
+    border-radius: .5rem;
+    padding: .5em 1em;
+    font-size: 1.5rem;
+}#btn:active{
+    color: #fff;
+    background-color: #000000;
+}
+#warning{
+    text-align: center;
+    font: 1.5rem;
+    color: red;
+}
